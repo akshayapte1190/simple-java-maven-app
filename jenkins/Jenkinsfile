@@ -16,5 +16,10 @@ pipeline {
                 echo './jenkins/scripts/deliver.sh'
             }
         }
+        stage('Deliver') {
+            steps {
+                echo 'Job complete'
+            }
+        }
     }
 }
